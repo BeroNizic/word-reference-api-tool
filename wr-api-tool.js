@@ -28,7 +28,7 @@ function main() {
 
 function areValidParms() {
   if (process.argv.length != 6) {
-    console.error("Usage: call-word-reference word-list-file json-result-file from-lang to-lang");
+    console.error("Usage: wr-api-tool word-list-file json-result-file from-lang to-lang");
     console.log(
       "word-list-file: text file with the list of words. One word per line. For every word will be called word reference API if that word isn't already present in the json-result-file."
     );
