@@ -1,4 +1,5 @@
-var wr = require("wordreference-api");
+var wr = require("./wr-api");
+//var wr = require("wordreference-api");
 var fs = require("fs");
 
 let existingWords = [];
